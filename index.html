@@ -1,45 +1,331 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <!--index stylesheet: index.css-->
-    <link rel="stylesheet" href="css/index.css">
-    <!--font from google API-->
-    <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
-    <link rel="icon" type="image/png" href="img/favicon.png"/>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Cody Grkman | Portfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Cody Grkman</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Projects</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#resume">Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column" id="particles-js">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar" src="assets/img/cody.png" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Cody Grkman</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Software Engineer</p>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="projects">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#instantoryModal">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-secondary text-white mb-0" id="resume">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Resume</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="h3">Experience</div>
+                <div class="row col-12 mb-5">
+                    <!-- True Helix -->
+                    <div class="col-lg-6 ms-auto">
+                        <p class="lead">
+                            True Helix - Application Development Specialist
+                        </p>
+                        <p class="font-weight-light">
+                            MARCH 2020 - PRESENT
+                        </p>
+                        <pl>
+                            <li>Built a Blazor server application from the ground up using .NET Core, EF Core, DevOps for CI/CD, Azure for web hosting.</li>
+                            <li>Implemented RESTful APIs that served data to a cross-platform mobile app handling thousands of requests per hour.</li>
+                            <li>Created custom data table controls to provide additional flexibility over out-of-the-box solutions, hosted as a NuGet package with over 1,000 downloads.</li>
+                        </pl>
+                    </div>
+                    <!-- Management Science Associates -->
+                    <div class="col-lg-6 ms-auto">
+                        <p class="lead">
+                            Management Science Associates - Software Developer I
+                        </p>
+                        <p class="font-weight-light">
+                            JANUARY 2019 - MARCH 2020
+                        </p>
+                        <pl>
+                            <li>Planned and developed the HealthMetric mobile app (iOS/Android) using PHP, Java, and Objective-C as a key member of the life sciences team.</li>
+                            <li>Implemented Fitbit, NutritionIX, HealthKit application programming interface integration for front and back-end systems, allowing users to view activity and nutritional data in a unified space.</li>
+                            <li>Created internal data generation and management tools to drastically increase the speed and accuracy at which the quality assurance team could validate requirements.</li>
+                        </pl>
+                    </div>
+                </div>
+                <div class="row col-12 mb-5">
+                    <!-- Dedicated Nursing Associates -->
+                    <div class="col-lg-6">
+                        <p class="lead">
+                            Dedicated Nursing Associates - Information Technology Specialist
+                        </p>
+                        <p class="font-weight-light">
+                            JUNE 2018 - DECEMBER 2018
+                        </p>
+                        <pl>
+                            <li>Developed Java console-based tool to interact with application programming interface to create local backups of company data.</li>
+                            <li>Implemented automated scripts to periodically audit company phone numbers with abnormally low traffic, decreasing operational costs on a monthly basis.</li> 
+                        </pl>
+                    </div>
+                </div>
 
-    <title>Cody Grkman</title>
-  </head>
-
-  <body background="img/background.jpg">
-
-    <!--header div-->
-    <div class="header">
-
-      <img class = "profile_picture" src="img/profile.png" style="width:197px;height:180px;" alt="Cody Grkman">
-
-      <div class="header_text">
-        <p><font size=7>Cody Grkman</font></P>
-        <p><font size=5>Software Engineering Student</p>
-        <button class="button" onclick="downloadResume()"><span>Download my resume</span></button>
-        <script>
-          function downloadResume(){
-            window.open("files/Cody Grkman Resume.pdf");
-          }
-        </script>
-      </div>
-
-    </div>
-
-    <!--coming soon div-->
-    <div class="comingsoon">
-      <h2 class="welcomeText"><strong>Thanks for visiting my portfolio site!</strong></h2>
-      <p>I hope to have this site completed in the near future</p>
-      <p>with my projects and accomplishments. I am creating</P>
-      <p>this site in an effort to develop my understanding of</p>
-      <p>HTML, CSS, and JavaScript. For now, I have included</p>
-      <p>my resume above!</p>
-    </div>
-
-  </body>
-
+                <!-- Skills & Education -->
+                <div class="row col-12 mb-5">
+                    <div class="col-lg-6">
+                        <div class="h3">Skills</div>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <p>C#, Blazor, Git</p>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        <p>JavaScript, .NET Core, Entity Framework Core, Azure DevOps, CSS/Sass</p>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                        <p>SQL, Razor, Azure, Python, Java, Identity Framework Core, Flask</p>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                        <p>PHP, C, SQLAlchemy, MongoDB, Docker</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="h3">Education</div>
+                        <p>AUGUST 2020</p>
+                        <p class="h6">Bachelor of Computer Science / University of Pittsburgh</p>
+                    </div>
+                </div>
+                <!-- About Section Button-->
+                <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-light" target="_blank" href="assets/CodyGrkmanResume.pdf">
+                        <i class="fas fa-download me-2"></i>
+                        Download as PDF
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Cody Grkman 2023</small></div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="instantoryModal" tabindex="-1" aria-labelledby="instantoryModal" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Instantory</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <div id="instantoryImages" class="carousel slide mb-2" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                            <img src="assets/img/portfolio/cake.png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                            <img src="assets/img/portfolio/safe.png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                            <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#instantoryImages" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#instantoryImages" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <!-- Portfolio Modal - Languages-->
+                                    <p class="mb-4">
+                                        <span class="badge badge-primary">.NET 7</span>
+                                        <span class="badge badge-primary">Blazor</span>
+                                        <span class="badge badge-primary">SQL (EF Core)</span>
+                                        <span class="badge badge-primary">Azure</span>
+                                        <span class="badge badge-primary">Identity Framework Core</span>
+                                        <span class="badge badge-primary">Bootstrap</span>
+                                        <span class="badge badge-primary">Font Awesome</span>
+                                    </p>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        Instantory is a .NET 7 Blazor server application. This SPA was written for a small business client who was spending hundreds of man hours per year to keep
+                                        their inventory accurate. Their old way of doing things was to print off a list of every item in their inventory (over 15,000 items!) and count them each
+                                        by hand to ensure their counts were accurate. In 2021, I proposed a new solution that would allow them to simply scan the barcode of each item from their mobile
+                                        phone and accurately update their inventory counts. <br /><br />
+                                        This project required the use of .NET 7 Blazor server for the front-end, as well as a services pattern architecture and
+                                        domain-driven design for the back-end and controller layers. I used a Microsoft stack the whole way through, by employing the use of 
+                                        Azure web services for hosting, .NET 7, Blazor, SQL (EF Core), Identity Framework Core for authorization, and OData for json interpretation
+                                        of both inbound and outbound inventory records. <br /><br />
+                                        <b>Business Impact: </b>A 400% reduction in the man hours required to complete yearly inventory.
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/particles.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
